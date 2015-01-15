@@ -1,0 +1,2957 @@
+version=12;
+class Mission
+{
+	addOns[]=
+	{
+		"map_vr",
+		"A3_Characters_F_BLUFOR",
+		"a3_characters_f",
+		"cba_main",
+		"A3_Soft_F_MRAP_01",
+		"A3_Characters_F_Civil",
+		"A3_Characters_F_INDEP",
+		"A3_Characters_F_OPFOR",
+		"A3_Air_F_Heli_Light_01",
+		"A3_Air_F_Beta_Heli_Transport_01",
+		"A3_Soft_F_HEMTT",
+		"A3_Soft_F_Gamma_HEMTT",
+		"A3_Soft_F_MRAP_03",
+		"A3_Soft_F_TruckHeavy",
+		"A3_Soft_F_Gamma_TruckHeavy",
+		"A3_Armor_F_EPB_MBT_03",
+		"A3_Air_F_Beta_Heli_Transport_02",
+		"A3_Air_F_EPB_Heli_Light_03",
+		"A3_Soft_F_MRAP_02",
+		"A3_Armor_F_T100K",
+		"A3_Air_F_Beta_Heli_Attack_02",
+		"A3_Air_F_Heli_Light_02",
+		"AGM_Medical",
+		"A3_Weapons_F_Ammoboxes",
+		"a3_weapons_f_beta_ammoboxes",
+		"agm_respawn",
+		"A3_Armor_F_Panther",
+		"agm_core",
+		"agm_interaction",
+		"aia_takistan_config"
+	};
+	addOnsAuto[]=
+	{
+		"cba_main",
+		"A3_Characters_F_Civil",
+		"A3_Characters_F_BLUFOR",
+		"a3_characters_f",
+		"agm_medical",
+		"agm_respawn",
+		"agm_core",
+		"A3_Characters_F_INDEP",
+		"A3_Characters_F_OPFOR",
+		"A3_Soft_F_MRAP_01",
+		"A3_Soft_F_HEMTT",
+		"A3_Armor_F_Panther",
+		"A3_Air_F_Heli_Light_01",
+		"A3_Air_F_Beta_Heli_Transport_01",
+		"A3_Soft_F_Gamma_HEMTT",
+		"A3_Soft_F_MRAP_03",
+		"A3_Soft_F_TruckHeavy",
+		"A3_Soft_F_Gamma_TruckHeavy",
+		"A3_Armor_F_EPB_MBT_03",
+		"A3_Air_F_Beta_Heli_Transport_02",
+		"A3_Air_F_EPB_Heli_Light_03",
+		"A3_Soft_F_MRAP_02",
+		"A3_Armor_F_T100K",
+		"A3_Air_F_Beta_Heli_Attack_02",
+		"A3_Air_F_Heli_Light_02",
+		"A3_Weapons_F_Ammoboxes",
+		"aia_takistan_config"
+	};
+	randomSeed=4839744;
+	class Intel
+	{
+		briefingName="> BromA Framework A3 - v0.9410";
+		overviewText="** INSERT MISSION DESCRIPTION HERE **";
+		resistanceEast=1;
+		startWeather=0.48999998;
+		startWind=0.099999994;
+		startWaves=0.099999994;
+		forecastWind=0.099999994;
+		forecastWaves=0.099999994;
+		forecastLightnings=0.099999994;
+		year=2035;
+		month=7;
+		day=6;
+		hour=12;
+		minute=0;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+	class Groups
+	{
+		items=49;
+		class Item0
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={2523.1431,5,196.44141};
+					id=0;
+					side="LOGIC";
+					vehicle="CBA_main_require";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item1
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={701.81696,5,1074.6152};
+					azimut=-5.693018;
+					id=1;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item2
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={700.64606,5,1074.605};
+					azimut=-5.6930199;
+					id=2;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item3
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={703.09601,5,1074.4478};
+					azimut=-5.693018;
+					id=3;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item4
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={704.50641,5,1074.4453};
+					azimut=-5.693018;
+					id=4;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item5
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={705.98566,5,1074.3555};
+					azimut=-5.693018;
+					id=5;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item6
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={707.42316,5,1074.459};
+					azimut=-5.693018;
+					id=6;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item7
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={696.22491,5,1067.3794};
+					azimut=180.17101;
+					special="NONE";
+					id=7;
+					side="WEST";
+					vehicle="B_officer_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="MAJOR";
+					skill=1;
+					text="Zero69Actual";
+					init="zero_grp_blu = group this; (group this) setGroupId [""Zero""]; this setVariable [""initUnit"",[""white"",""blufor"",""CO""],false];";
+					description="Zero Actual - CO";
+				};
+				class Item1
+				{
+					position[]={692.93561,5,1068.5415};
+					azimut=180.17101;
+					special="NONE";
+					id=8;
+					side="WEST";
+					vehicle="B_recon_JTAC_F";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=1;
+					text="Zero69RTO";
+					init="zero_grp_blu = group this; (group this) setGroupId [""Zero""]; this setVariable [""initUnit"",[""red"",""blufor"",""JTAC""],false];";
+					description="     Platoon RTO";
+				};
+				class Item2
+				{
+					position[]={699.48224,5,1068.7061};
+					azimut=180.17101;
+					special="NONE";
+					id=9;
+					side="WEST";
+					vehicle="B_medic_F";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=1;
+					text="Platoon69Medic";
+					init="zero_grp_blu = group this; (group this) setGroupId [""Zero""]; this setVariable [""initUnit"",[""green"",""blufor"",""medic""],false];";
+					description="     Platoon Medic";
+				};
+			};
+		};
+		class Item8
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={2561.4355,349.16269,118.53174};
+					class args
+					{
+						items=15;
+						class Item0
+						{
+							value="1";
+							parentCls="AGM_ModuleMedical";
+							typeName="CoefDamage";
+						};
+						class Item1
+						{
+							value="1";
+							parentCls="AGM_ModuleMedical";
+							typeName="CoefBleeding";
+						};
+						class Item2
+						{
+							value="1";
+							parentCls="AGM_ModuleMedical";
+							typeName="CoefPain";
+						};
+						class Item3
+						{
+							value="3";
+							parentCls="AGM_ModuleMedical";
+							typeName="CoefNonMedic";
+						};
+						class Item4
+						{
+							value="150";
+							parentCls="AGM_ModuleMedical";
+							typeName="MaxUnconsciousnessTime";
+						};
+						class Item5
+						{
+							value="1";
+							parentCls="AGM_ModuleMedical";
+							typeName="AllowNonmedics";
+						};
+						class Item6
+						{
+							value="0";
+							parentCls="AGM_ModuleMedical";
+							typeName="RequireDiagnosis";
+						};
+						class Item7
+						{
+							value="1";
+							parentCls="AGM_ModuleMedical";
+							typeName="PreventInstaDeath";
+						};
+						class Item8
+						{
+							value="1";
+							parentCls="AGM_ModuleMedical";
+							typeName="PreventDeathWhileUnconscious";
+						};
+						class Item9
+						{
+							value="1";
+							parentCls="AGM_ModuleMedical";
+							typeName="SingleBandage";
+						};
+						class Item10
+						{
+							value="0";
+							parentCls="AGM_ModuleMedical";
+							typeName="AllowChatWhileUnconscious";
+						};
+						class Item11
+						{
+							value="0";
+							parentCls="AGM_ModuleMedical";
+							typeName="EnableOverdosing";
+						};
+						class Item12
+						{
+							value="0";
+							parentCls="AGM_ModuleMedical";
+							typeName="RequireMEDEVAC";
+						};
+						class Item13
+						{
+							value="1";
+							parentCls="AGM_ModuleMedical";
+							typeName="AutomaticWakeup";
+						};
+						class Item14
+						{
+							value="1";
+							parentCls="AGM_ModuleMedical";
+							typeName="DisableScreams";
+						};
+					};
+					id=10;
+					side="LOGIC";
+					vehicle="AGM_ModuleMedical";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item9
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={2592.4114,5,118.85938};
+					class args
+					{
+						items=3;
+						class Item0
+						{
+							value="1";
+							parentCls="AGM_ModuleRespawn";
+							typeName="SavePreDeathGear";
+						};
+						class Item1
+						{
+							value="1";
+							parentCls="AGM_ModuleRespawn";
+							typeName="";
+						};
+						class Item2
+						{
+							value="120";
+							parentCls="AGM_ModuleRespawn";
+							typeName="";
+						};
+					};
+					id=11;
+					side="LOGIC";
+					vehicle="AGM_ModuleRespawn";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item10
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={2530.3914,5,118.88379};
+					class args
+					{
+						items=1;
+						class Item0
+						{
+							value="2";
+							parentCls="AGM_ModuleCheckPBOs";
+							typeName="Action";
+						};
+					};
+					id=12;
+					side="LOGIC";
+					vehicle="AGM_ModuleCheckPBOs";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item11
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={1694.967,5,1070.3677};
+					azimut=-2.04035;
+					special="NONE";
+					id=13;
+					side="GUER";
+					vehicle="I_officer_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="MAJOR";
+					skill=1;
+					text="Zero69Actual_ind";
+					init="zero_grp_ind = group this; (group this) setGroupId [""Zero""]; this setVariable [""initUnit"",[""white"",""indfor"",""CO""],false];";
+					description="Zero Actual - CO";
+				};
+				class Item1
+				{
+					position[]={1696.8455,5,1069.5181};
+					azimut=-2.04035;
+					special="NONE";
+					id=14;
+					side="GUER";
+					vehicle="I_Spotter_F";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=1;
+					text="Zero69RTO_ind";
+					init="zero_grp_ind = group this; (group this) setGroupId [""Zero""]; this setVariable [""initUnit"",[""green"",""indfor"",""JTAC""],false];";
+					description="     Platoon RTO";
+				};
+				class Item2
+				{
+					position[]={1693.1345,5,1069.7046};
+					azimut=-2.04035;
+					special="NONE";
+					id=15;
+					side="GUER";
+					vehicle="I_medic_F";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=1;
+					text="Platoon69Medic_ind";
+					init="zero_grp_ind = group this; (group this) setGroupId [""Zero""]; this setVariable [""initUnit"",[""green"",""indfor"",""medic""],false];";
+					description="     Platoon Medic";
+				};
+			};
+		};
+		class Item12
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={1197.0121,5,208.81396};
+					azimut=-4.09758;
+					special="NONE";
+					id=16;
+					side="EAST";
+					vehicle="O_officer_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="MAJOR";
+					skill=1;
+					text="Zero69Actual_op";
+					init="zero_grp_op = group this; (group this) setGroupId [""Zero""]; this setVariable [""initUnit"",[""white"",""redfor"",""CO""],false];";
+					description="Zero Actual - CO";
+				};
+				class Item1
+				{
+					position[]={1198.8011,5,208.06738};
+					azimut=-4.09758;
+					special="NONE";
+					id=17;
+					side="EAST";
+					vehicle="O_recon_JTAC_F";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=1;
+					text="Zero69RTO_op";
+					init="zero_grp_op = group this; (group this) setGroupId [""Zero""]; this setVariable [""initUnit"",[""blue"",""redfor"",""JTAC""],false];";
+					description="     Platoon RTO";
+				};
+				class Item2
+				{
+					position[]={1195.2059,5,208.08789};
+					azimut=-4.09758;
+					special="NONE";
+					id=18;
+					side="EAST";
+					vehicle="O_medic_F";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=1;
+					text="Platoon69Medic_op";
+					init="zero_grp_op = group this; (group this) setGroupId [""Zero""]; this setVariable [""initUnit"",[""green"",""redfor"",""medic""],false];";
+					description="     Platoon Medic";
+				};
+			};
+		};
+		class Item13
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={693.07599,5,1062.0571};
+					special="NONE";
+					id=19;
+					side="WEST";
+					vehicle="B_Soldier_SL_F";
+					player="PLAYER COMMANDER";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=1;
+					text="Alpha69Actual";
+					init="alpha_grp_blu = group this; (group this) setGroupId [""Alpha""]; this setVariable [""initUnit"",[""white"",""blufor"",""SL""],false];";
+					description="** Alpha Actual";
+				};
+				class Item1
+				{
+					position[]={693.28033,5,1057.373};
+					special="NONE";
+					id=20;
+					side="WEST";
+					vehicle="B_medic_F";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Alpha69Corpsman";
+					init="alpha_grp_blu = group this; (group this) setGroupId [""Alpha""]; this setVariable [""initUnit"",[""green"",""blufor"",""medic""],false];";
+					description="Alpha - Squad Medic";
+				};
+			};
+		};
+		class Item14
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={691.37799,5,1061.29};
+					special="NONE";
+					id=21;
+					side="WEST";
+					vehicle="B_Soldier_TL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=1;
+					text="FTL691_Alpha_1_1";
+					init="alpha_grp_blu1 = group this; (group this) setGroupId [""Alpha""]; this setVariable [""initUnit"",[""red"",""blufor"",""FTL""],false];";
+					description="=== Alpha 1'1 - Team Leader";
+				};
+				class Item1
+				{
+					position[]={691.41803,5,1060.2285};
+					azimut=-12.9377;
+					special="NONE";
+					id=22;
+					side="WEST";
+					vehicle="B_Soldier_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Alpha691692";
+					init="alpha_grp_blu1 = group this; (group this) setGroupId [""Alpha""]; this setVariable [""initUnit"",[""red"",""blufor"",""rifleman""],false];";
+					description="     Alpha 1'2 - Rifleman";
+				};
+				class Item2
+				{
+					position[]={691.46808,5,1059.082};
+					special="NONE";
+					id=23;
+					side="WEST";
+					vehicle="B_soldier_AR_F";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Alpha691693";
+					init="alpha_grp_blu1 = group this; (group this) setGroupId [""Alpha""]; this setVariable [""initUnit"",[""red"",""blufor"",""AR""],false];";
+					description="     Alpha 1'3 - Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={691.50812,5,1057.998};
+					special="NONE";
+					id=24;
+					side="WEST";
+					vehicle="B_soldier_M_F";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Alpha691694";
+					init="alpha_grp_blu1 = group this; (group this) setGroupId [""Alpha""]; this setVariable [""initUnit"",[""red"",""blufor"",""marksman""],false];";
+					description="     Alpha 1'4 - Designated Marksman";
+				};
+			};
+		};
+		class Item15
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={694.68585,5,1061.4277};
+					special="NONE";
+					id=25;
+					side="WEST";
+					vehicle="B_Soldier_TL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=1;
+					text="FTL692_Alpha_2_1";
+					init="alpha_grp_blu2 = group this; (group this) setGroupId [""Alpha""]; this setVariable [""initUnit"",[""blue"",""blufor"",""FTL""],false];";
+					description="=== Alpha 2'1 - Team Leader";
+				};
+				class Item1
+				{
+					position[]={694.73834,5,1060.396};
+					special="NONE";
+					id=26;
+					side="WEST";
+					vehicle="B_Soldier_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Alpha692692";
+					init="alpha_grp_blu2 = group this; (group this) setGroupId [""Alpha""]; this setVariable [""initUnit"",[""blue"",""blufor"",""rifleman""],false];";
+					description="     Alpha 2'2 - Rifleman";
+				};
+				class Item2
+				{
+					position[]={694.80719,5,1059.2529};
+					special="NONE";
+					id=27;
+					side="WEST";
+					vehicle="B_soldier_LAT_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Alpha692693";
+					init="alpha_grp_blu2 = group this; (group this) setGroupId [""Alpha""]; this setVariable [""initUnit"",[""blue"",""blufor"",""AT""],false];";
+					description="     Alpha 2'3 - Light AT";
+				};
+				class Item3
+				{
+					position[]={694.82648,5,1058.1182};
+					special="NONE";
+					id=28;
+					side="WEST";
+					vehicle="B_soldier_M_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Alpha692694";
+					init="alpha_grp_blu2 = group this; (group this) setGroupId [""Alpha""]; this setVariable [""initUnit"",[""blue"",""blufor"",""marksman""],false];";
+					description="     Alpha 2'4 - Designated Marksman";
+				};
+			};
+		};
+		class Item16
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={700.04108,5,1062.4131};
+					offsetY=0.1;
+					special="NONE";
+					id=29;
+					side="WEST";
+					vehicle="B_Soldier_SL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=1;
+					text="Bravo69Actual";
+					init="bravo_grp_blu = group this; (group this) setGroupId [""Bravo""]; this setVariable [""initUnit"",[""white"",""blufor"",""SL""],false];";
+					description="** Bravo Actual";
+				};
+				class Item1
+				{
+					position[]={700.22418,5,1057.6704};
+					special="NONE";
+					id=30;
+					side="WEST";
+					vehicle="B_medic_F";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Bravo69Corpsman";
+					init="bravo_grp_blu = group this; (group this) setGroupId [""Bravo""]; this setVariable [""initUnit"",[""GREEN"",""blufor"",""medic""],false];";
+					description="Bravo - Squad Medic";
+				};
+			};
+		};
+		class Item17
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={698.30402,5,1061.561};
+					special="NONE";
+					id=31;
+					side="WEST";
+					vehicle="B_Soldier_TL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=1;
+					text="FTL691_Bravo_1_1";
+					init="bravo_grp_blu1 = group this; (group this) setGroupId [""Bravo""]; this setVariable [""initUnit"",[""red"",""blufor"",""FTL""],false];";
+					description="=== Bravo 1'1 - Team Leader";
+				};
+				class Item1
+				{
+					position[]={698.37775,5,1060.5361};
+					special="NONE";
+					id=32;
+					side="WEST";
+					vehicle="B_Soldier_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Bravo691692";
+					init="bravo_grp_blu1 = group this; (group this) setGroupId [""Bravo""]; this setVariable [""initUnit"",[""red"",""blufor"",""rifleman""],false];";
+					description="     Bravo 1'2 - Rifleman";
+				};
+				class Item2
+				{
+					position[]={698.44415,5,1059.3101};
+					special="NONE";
+					id=33;
+					side="WEST";
+					vehicle="B_soldier_AR_F";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Bravo691693";
+					init="bravo_grp_blu1 = group this; (group this) setGroupId [""Bravo""]; this setVariable [""initUnit"",[""red"",""blufor"",""AR""],false];";
+					description="     Bravo 1'3 - Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={698.61261,5,1058.1274};
+					special="NONE";
+					id=34;
+					side="WEST";
+					vehicle="B_soldier_M_F";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Bravo691694";
+					init="bravo_grp_blu1 = group this; (group this) setGroupId [""Bravo""]; this setVariable [""initUnit"",[""red"",""blufor"",""marksman""],false];";
+					description="     Bravo 1'4 - Designated Marksman";
+				};
+			};
+		};
+		class Item18
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={701.61481,5,1061.708};
+					special="NONE";
+					id=35;
+					side="WEST";
+					vehicle="B_Soldier_TL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=1;
+					text="FTL692_Bravo_2_1";
+					init="bravo_grp_blu2 = group this; (group this) setGroupId [""Bravo""]; this setVariable [""initUnit"",[""blue"",""blufor"",""FTL""],false];";
+					description="=== Bravo 2'1 - Team Leader";
+				};
+				class Item1
+				{
+					position[]={701.6568,5,1060.6421};
+					special="NONE";
+					id=36;
+					side="WEST";
+					vehicle="B_Soldier_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Bravo692692";
+					init="bravo_grp_blu2 = group this; (group this) setGroupId [""Bravo""]; this setVariable [""initUnit"",[""blue"",""blufor"",""rifleman""],false];";
+					description="     Bravo 2'2 - Rifleman";
+				};
+				class Item2
+				{
+					position[]={701.72003,5,1059.4316};
+					special="NONE";
+					id=37;
+					side="WEST";
+					vehicle="B_soldier_LAT_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Bravo692693";
+					init="bravo_grp_blu2 = group this; (group this) setGroupId [""Bravo""]; this setVariable [""initUnit"",[""blue"",""blufor"",""AT""],false];";
+					description="     Bravo 2'3 - Light AT";
+				};
+				class Item3
+				{
+					position[]={701.78424,5,1058.396};
+					special="NONE";
+					id=38;
+					side="WEST";
+					vehicle="B_soldier_M_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Bravo692694";
+					init="bravo_grp_blu2 = group this; (group this) setGroupId [""Bravo""]; this setVariable [""initUnit"",[""blue"",""blufor"",""marksman""],false];";
+					description="     Bravo 2'4 - Designated Marksman";
+				};
+			};
+		};
+		class Item19
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={693.27277,5,1053.8853};
+					offsetY=0.1;
+					special="NONE";
+					id=39;
+					side="WEST";
+					vehicle="B_Soldier_SL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=1;
+					text="Charlie69Actual";
+					init="charlie_grp_blu = group this; (group this) setGroupId [""Charlie""]; this setVariable [""initUnit"",[""white"",""blufor"",""SL""],false];";
+					description="** Charlie Actual";
+				};
+				class Item1
+				{
+					position[]={693.49445,5,1049.1958};
+					special="NONE";
+					id=40;
+					side="WEST";
+					vehicle="B_medic_F";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Charlie69Corpsman";
+					init="charlie_grp_blu = group this; (group this) setGroupId [""Charlie""]; this setVariable [""initUnit"",[""GREEN"",""blufor"",""medic""],false];";
+					description="Charlie - Squad Medic";
+				};
+			};
+		};
+		class Item20
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={691.73248,5,1053.1802};
+					special="NONE";
+					id=41;
+					side="WEST";
+					vehicle="B_Soldier_TL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=1;
+					text="FTL691_Charlie_1_1";
+					init="charlie_grp_blu1 = group this; (group this) setGroupId [""Charlie""]; this setVariable [""initUnit"",[""red"",""blufor"",""FTL""],false];";
+					description="=== Charlie 1'1 - Team Leader";
+				};
+				class Item1
+				{
+					position[]={691.76251,5,1052.165};
+					special="NONE";
+					id=42;
+					side="WEST";
+					vehicle="B_Soldier_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Charlie691692";
+					init="charlie_grp_blu1 = group this; (group this) setGroupId [""Charlie""]; this setVariable [""initUnit"",[""red"",""blufor"",""rifleman""],false];";
+					description="     Charlie 1'2 - Rifleman";
+				};
+				class Item2
+				{
+					position[]={691.79181,5,1051.0898};
+					special="NONE";
+					id=43;
+					side="WEST";
+					vehicle="B_soldier_AR_F";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Charlie691693";
+					init="charlie_grp_blu1 = group this; (group this) setGroupId [""Charlie""]; this setVariable [""initUnit"",[""red"",""blufor"",""AR""],false];";
+					description="     Charlie 1'3 - Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={691.87091,5,1049.9458};
+					special="NONE";
+					id=44;
+					side="WEST";
+					vehicle="B_soldier_M_F";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Charlie691694";
+					init="charlie_grp_blu1 = group this; (group this) setGroupId [""Charlie""]; this setVariable [""initUnit"",[""red"",""blufor"",""marksman""],false];";
+					description="     Charlie 1'4 - Designated Marksman";
+				};
+			};
+		};
+		class Item21
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={695.07526,5,1053.3291};
+					special="NONE";
+					id=45;
+					side="WEST";
+					vehicle="B_Soldier_TL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=1;
+					text="FTL692_Charlie_2_1";
+					init="charlie_grp_blu2 = group this; (group this) setGroupId [""Charlie""]; this setVariable [""initUnit"",[""blue"",""blufor"",""FTL""],false];";
+					description="=== Charlie 2'1 - Team Leader";
+				};
+				class Item1
+				{
+					position[]={695.09723,5,1052.3384};
+					special="NONE";
+					id=46;
+					side="WEST";
+					vehicle="B_Soldier_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Charlie692692";
+					init="charlie_grp_blu2 = group this; (group this) setGroupId [""Charlie""]; this setVariable [""initUnit"",[""blue"",""blufor"",""rifleman""],false];";
+					description="     Charlie 2'2 - Rifleman";
+				};
+				class Item2
+				{
+					position[]={695.10724,5,1051.2559};
+					special="NONE";
+					id=47;
+					side="WEST";
+					vehicle="B_soldier_LAT_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Charlie692693";
+					init="charlie_grp_blu2 = group this; (group this) setGroupId [""Charlie""]; this setVariable [""initUnit"",[""blue"",""blufor"",""AT""],false];";
+					description="     Charlie 2'3 - Light AT";
+				};
+				class Item3
+				{
+					position[]={695.11603,5,1050.0308};
+					special="NONE";
+					id=48;
+					side="WEST";
+					vehicle="B_soldier_M_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Charlie692694";
+					init="charlie_grp_blu2 = group this; (group this) setGroupId [""Charlie""]; this setVariable [""initUnit"",[""blue"",""blufor"",""marksman""],false];";
+					description="     Charlie 2'4 - Designated Marksman";
+				};
+			};
+		};
+		class Item22
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={700.38141,5,1054.2725};
+					offsetY=0.1;
+					special="NONE";
+					id=49;
+					side="WEST";
+					vehicle="B_Soldier_SL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=1;
+					text="Delta69Actual";
+					init="delta_grp_blu = group this; (group this) setGroupId [""Delta""]; this setVariable [""initUnit"",[""white"",""blufor"",""SL""],false];";
+					description="** Delta Actual";
+				};
+				class Item1
+				{
+					position[]={700.59991,5,1049.4219};
+					special="NONE";
+					id=50;
+					side="WEST";
+					vehicle="B_medic_F";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Delta69Corpsman";
+					init="delta_grp_blu = group this; (group this) setGroupId [""Delta""]; this setVariable [""initUnit"",[""GREEN"",""blufor"",""medic""],false];";
+					description="Delta - Squad Medic";
+				};
+			};
+		};
+		class Item23
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={698.64703,5,1053.5562};
+					special="NONE";
+					id=51;
+					side="WEST";
+					vehicle="B_Soldier_TL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=1;
+					text="FTL691_Delta_1_1";
+					init="delta_grp_blu1 = group this; (group this) setGroupId [""Delta""]; this setVariable [""initUnit"",[""blue"",""blufor"",""FTL""],false];";
+					description="=== Delta 1'1 - Team Leader";
+				};
+				class Item1
+				{
+					position[]={698.72736,5,1052.5146};
+					special="NONE";
+					id=52;
+					side="WEST";
+					vehicle="B_Soldier_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Delta691692";
+					init="delta_grp_blu1 = group this; (group this) setGroupId [""Delta""]; this setVariable [""initUnit"",[""blue"",""blufor"",""rifleman""],false];";
+					description="     Delta 1'2 - Rifleman";
+				};
+				class Item2
+				{
+					position[]={698.7818,5,1051.3423};
+					special="NONE";
+					id=53;
+					side="WEST";
+					vehicle="B_soldier_AR_F";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Delta691693";
+					init="delta_grp_blu1 = group this; (group this) setGroupId [""Delta""]; this setVariable [""initUnit"",[""blue"",""blufor"",""AR""],false];";
+					description="     Delta 1'3 - Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={698.84161,5,1050.293};
+					special="NONE";
+					id=54;
+					side="WEST";
+					vehicle="B_soldier_M_F";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Delta691694";
+					init="delta_grp_blu1 = group this; (group this) setGroupId [""Delta""]; this setVariable [""initUnit"",[""blue"",""blufor"",""marksman""],false];";
+					description="     Delta 1'4 - Designated Marksman";
+				};
+			};
+		};
+		class Item24
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={702.1712,5,1053.4517};
+					special="NONE";
+					id=55;
+					side="WEST";
+					vehicle="B_Soldier_TL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=1;
+					text="FTL692_Delta_2_1";
+					init="delta_grp_blu2 = group this; (group this) setGroupId [""Delta""]; this setVariable [""initUnit"",[""red"",""blufor"",""FTL""],false];";
+					description="=== Delta 2'1 - Team Leader";
+				};
+				class Item1
+				{
+					position[]={702.28009,5,1052.3691};
+					special="NONE";
+					id=56;
+					side="WEST";
+					vehicle="B_Soldier_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Delta692692";
+					init="delta_grp_blu2 = group this; (group this) setGroupId [""Delta""]; this setVariable [""initUnit"",[""red"",""blufor"",""rifleman""],false];";
+					description="     Delta 2'2 - Rifleman";
+				};
+				class Item2
+				{
+					position[]={702.28619,5,1051.2158};
+					special="NONE";
+					id=57;
+					side="WEST";
+					vehicle="B_soldier_LAT_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Delta692693";
+					init="delta_grp_blu2 = group this; (group this) setGroupId [""Delta""]; this setVariable [""initUnit"",[""red"",""blufor"",""AT""],false];";
+					description="     Delta 2'3 - Light AT";
+				};
+				class Item3
+				{
+					position[]={702.27863,5,1050.2349};
+					special="NONE";
+					id=58;
+					side="WEST";
+					vehicle="B_soldier_M_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Delta692694";
+					init="delta_grp_blu2 = group this; (group this) setGroupId [""Delta""]; this setVariable [""initUnit"",[""red"",""blufor"",""marksman""],false];";
+					description="     Delta 2'4 - Designated Marksman";
+				};
+			};
+		};
+		class Item25
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1691.0798,5,1065.7686};
+					special="NONE";
+					id=59;
+					side="GUER";
+					vehicle="I_Soldier_SL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=1;
+					text="Alpha69Actual_ind";
+					init="alpha_grp_ind = group this; (group this) setGroupId [""Alpha""]; this setVariable [""initUnit"",[""white"",""indfor"",""SL""],false];";
+					description="** Alpha Actual";
+				};
+				class Item1
+				{
+					position[]={1690.9778,5,1061.0835};
+					special="NONE";
+					id=60;
+					side="GUER";
+					vehicle="I_medic_F";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Alpha69Corpsman_ind";
+					init="alpha_grp_ind = group this; (group this) setGroupId [""Alpha""]; this setVariable [""initUnit"",[""green"",""indfor"",""medic""],false];";
+					description="Alpha - Squad Medic";
+				};
+			};
+		};
+		class Item26
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1689.6018,5,1065.2378};
+					special="NONE";
+					id=61;
+					side="GUER";
+					vehicle="I_Soldier_TL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=1;
+					text="FTL691_Alpha_1_1_ind";
+					init="alpha_grp_ind1 = group this; (group this) setGroupId [""Alpha""]; this setVariable [""initUnit"",[""red"",""indfor"",""FTL""],false];";
+					description="=== Alpha 1'1 - Team Leader";
+				};
+				class Item1
+				{
+					position[]={1689.5696,5,1064.1753};
+					special="NONE";
+					id=62;
+					side="GUER";
+					vehicle="I_soldier_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Alpha691692_ind";
+					init="alpha_grp_ind1 = group this; (group this) setGroupId [""Alpha""];  this setVariable [""initUnit"",[""red"",""indfor"",""rifleman""],false];";
+					description="     Alpha 1'2 - Rifleman";
+				};
+				class Item2
+				{
+					position[]={1689.5452,5,1063.0259};
+					special="NONE";
+					id=63;
+					side="GUER";
+					vehicle="I_Soldier_AR_F";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Alpha691693_ind";
+					init="alpha_grp_ind1 = group this; (group this) setGroupId [""Alpha""]; this setVariable [""initUnit"",[""red"",""indfor"",""MG""],false];";
+					description="     Alpha 1'3 - Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={1689.5168,5,1061.9443};
+					special="NONE";
+					id=64;
+					side="GUER";
+					vehicle="I_Soldier_M_F";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Alpha691694_ind";
+					init="alpha_grp_ind1 = group this; (group this) setGroupId [""Alpha""]; this setVariable [""initUnit"",[""red"",""indfor"",""rifleman""],false];";
+					description="     Alpha 1'4 - Designated Marksman";
+				};
+			};
+		};
+		class Item27
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1692.4636,5,1065.0972};
+					special="NONE";
+					id=65;
+					side="GUER";
+					vehicle="I_Soldier_TL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=1;
+					text="FTL692_Alpha_2_1_ind";
+					init="alpha_grp_ind2 = group this; (group this) setGroupId [""Alpha""]; this setVariable [""initUnit"",[""blue"",""indfor"",""FTL""],false];";
+					description="=== Alpha 2'1 - Team Leader";
+				};
+				class Item1
+				{
+					position[]={1692.4485,5,1064.0669};
+					special="NONE";
+					id=66;
+					side="GUER";
+					vehicle="I_soldier_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Alpha692692_ind";
+					init="alpha_grp_ind2 = group this; (group this) setGroupId [""Alpha""]; this setVariable [""initUnit"",[""blue"",""indfor"",""rifleman""],false];";
+					description="     Alpha 2'2 - Rifleman";
+				};
+				class Item2
+				{
+					position[]={1692.4436,5,1062.9189};
+					special="NONE";
+					id=67;
+					side="GUER";
+					vehicle="I_Soldier_LAT_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Alpha692693_ind";
+					init="alpha_grp_ind2 = group this; (group this) setGroupId [""Alpha""]; this setVariable [""initUnit"",[""red"",""indfor"",""AT""],false];";
+					description="     Alpha 2'3 - Light AT";
+				};
+				class Item3
+				{
+					position[]={1692.3884,5,1061.7871};
+					special="NONE";
+					id=68;
+					side="GUER";
+					vehicle="I_Soldier_M_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Alpha692694_ind";
+					init="alpha_grp_ind2 = group this; (group this) setGroupId [""Alpha""]; this setVariable [""initUnit"",[""blue"",""indfor"",""marksman""],false];";
+					description="     Alpha 2'4 - Designated Marksman";
+				};
+			};
+		};
+		class Item28
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1697.9788,5,1065.7197};
+					offsetY=0.1;
+					special="NONE";
+					id=69;
+					side="GUER";
+					vehicle="I_Soldier_SL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=1;
+					text="Bravo69Actual_ind";
+					init="bravo_grp_ind = group this; (group this) setGroupId [""Bravo""]; this setVariable [""initUnit"",[""white"",""indfor"",""SL""],false];";
+					description="** Bravo Actual";
+				};
+				class Item1
+				{
+					position[]={1697.8484,5,1060.9722};
+					special="NONE";
+					id=70;
+					side="GUER";
+					vehicle="I_medic_F";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Bravo69Corpsman_ind";
+					init="bravo_grp_ind = group this; (group this) setGroupId [""Bravo""]; this setVariable [""initUnit"",[""green"",""indfor"",""medic""],false];";
+					description="Bravo - Squad Medic";
+				};
+			};
+		};
+		class Item29
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1696.5847,5,1065.1851};
+					special="NONE";
+					id=71;
+					side="GUER";
+					vehicle="I_Soldier_TL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=1;
+					text="FTL691_Bravo_1_1_ind";
+					init="bravo_grp_ind1 = group this; (group this) setGroupId [""Bravo""]; this setVariable [""initUnit"",[""red"",""indfor"",""FTL""],false];";
+					description="=== Bravo 1'1 - Team Leader";
+				};
+				class Item1
+				{
+					position[]={1696.594,5,1064.1611};
+					special="NONE";
+					id=72;
+					side="GUER";
+					vehicle="I_soldier_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Bravo691692_ind";
+					init="bravo_grp_ind1 = group this; (group this) setGroupId [""Bravo""]; this setVariable [""initUnit"",[""red"",""indfor"",""rifleman""],false];";
+					description="     Bravo 1'2 - Rifleman";
+				};
+				class Item2
+				{
+					position[]={1696.5789,5,1062.9297};
+					special="NONE";
+					id=73;
+					side="GUER";
+					vehicle="I_Soldier_AR_F";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Bravo691693_ind";
+					init="bravo_grp_ind1 = group this; (group this) setGroupId [""Bravo""]; this setVariable [""initUnit"",[""red"",""indfor"",""MG""],false];";
+					description="     Bravo 1'3 - Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={1696.6692,5,1061.7397};
+					special="NONE";
+					id=74;
+					side="GUER";
+					vehicle="I_Soldier_M_F";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Bravo691694_ind";
+					init="bravo_grp_ind1 = group this; (group this) setGroupId [""Bravo""]; this setVariable [""initUnit"",[""red"",""indfor"",""rifleman""],false];";
+					description="     Bravo 1'4 - Designated Marksman";
+				};
+			};
+		};
+		class Item30
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1699.4753,5,1064.9629};
+					special="NONE";
+					id=75;
+					side="GUER";
+					vehicle="I_Soldier_TL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=1;
+					text="FTL692_Bravo_2_1_ind";
+					init="bravo_grp_ind2 = group this; (group this) setGroupId [""Bravo""]; this setVariable [""initUnit"",[""blue"",""indfor"",""FTL""],false];";
+					description="=== Bravo 2'1 - Team Leader";
+				};
+				class Item1
+				{
+					position[]={1699.45,5,1063.8955};
+					special="NONE";
+					id=76;
+					side="GUER";
+					vehicle="I_soldier_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Bravo692692_ind";
+					init="bravo_grp_ind2 = group this; (group this) setGroupId [""Bravo""]; this setVariable [""initUnit"",[""blue"",""indfor"",""rifleman""],false];";
+					description="     Bravo 2'2 - Rifleman";
+				};
+				class Item2
+				{
+					position[]={1699.4319,5,1062.686};
+					special="NONE";
+					id=77;
+					side="GUER";
+					vehicle="I_Soldier_LAT_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Bravo692693_ind";
+					init="bravo_grp_ind2 = group this; (group this) setGroupId [""Bravo""]; this setVariable [""initUnit"",[""red"",""indfor"",""AT""],false];";
+					description="     Bravo 2'3 - Light AT";
+				};
+				class Item3
+				{
+					position[]={1699.4294,5,1061.6489};
+					special="NONE";
+					id=78;
+					side="GUER";
+					vehicle="I_Soldier_M_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Bravo692694_ind";
+					init="bravo_grp_ind2 = group this; (group this) setGroupId [""Bravo""]; this setVariable [""initUnit"",[""blue"",""indfor"",""marksman""],false];";
+					description="     Bravo 2'4 - Designated Marksman";
+				};
+			};
+		};
+		class Item31
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1690.7268,5,1057.7524};
+					offsetY=0.1;
+					special="NONE";
+					id=79;
+					side="GUER";
+					vehicle="I_Soldier_SL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=1;
+					text="Charlie69Actual_ind";
+					init="charlie_grp_ind = group this; (group this) setGroupId [""Charlie""]; this setVariable [""initUnit"",[""white"",""indfor"",""SL""],false];";
+					description="** Charlie Actual";
+				};
+				class Item1
+				{
+					position[]={1690.6428,5,1053.0586};
+					special="NONE";
+					id=80;
+					side="GUER";
+					vehicle="I_medic_F";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Charlie69Corpsman_ind";
+					init="charlie_grp_ind = group this; this assignTeam ""GREEN""; this setVariable [""initUnit"",[""green"",""indfor"",""medic""],false];";
+					description="Charlie - Squad Medic";
+				};
+			};
+		};
+		class Item32
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1689.4446,5,1057.0864};
+					special="NONE";
+					id=81;
+					side="GUER";
+					vehicle="I_Soldier_TL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=1;
+					text="FTL691_Charlie_1_1_ind";
+					init="charlie_grp_ind1 = group this; (group this) setGroupId [""Charlie""]; this setVariable [""initUnit"",[""red"",""indfor"",""FTL""],false];";
+					description="=== Charlie 1'1 - Team Leader";
+				};
+				class Item1
+				{
+					position[]={1689.4075,5,1056.0679};
+					special="NONE";
+					id=82;
+					side="GUER";
+					vehicle="I_soldier_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Charlie691692_ind";
+					init="charlie_grp_ind1 = group this; (group this) setGroupId [""Charlie""];  this setVariable [""initUnit"",[""red"",""indfor"",""rifleman""],false];";
+					description="     Charlie 1'2 - Rifleman";
+				};
+				class Item2
+				{
+					position[]={1689.3689,5,1054.9961};
+					special="NONE";
+					id=83;
+					side="GUER";
+					vehicle="I_Soldier_AR_F";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Charlie691693_ind";
+					init="charlie_grp_ind1 = group this; (group this) setGroupId [""Charlie""]; this setVariable [""initUnit"",[""red"",""indfor"",""MG""],false];";
+					description="     Charlie 1'3 - Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={1689.3713,5,1053.8496};
+					special="NONE";
+					id=84;
+					side="GUER";
+					vehicle="I_Soldier_M_F";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Charlie691694_ind";
+					init="charlie_grp_ind1 = group this; (group this) setGroupId [""Charlie""];  this setVariable [""initUnit"",[""red"",""indfor"",""rifleman""],false];";
+					description="     Charlie 1'4 - Designated Marksman";
+				};
+			};
+		};
+		class Item33
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1692.1892,5,1057.0337};
+					special="NONE";
+					id=85;
+					side="GUER";
+					vehicle="I_Soldier_TL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=1;
+					text="FTL692_Charlie_2_1_ind";
+					init="charlie_grp_ind2 = group this; (group this) setGroupId [""Charlie""]; this setVariable [""initUnit"",[""blue"",""indfor"",""FTL""],false];";
+					description="=== Charlie 2'1 - Team Leader";
+				};
+				class Item1
+				{
+					position[]={1692.1458,5,1056.0435};
+					special="NONE";
+					id=86;
+					side="GUER";
+					vehicle="I_soldier_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Charlie692692_ind";
+					init="charlie_grp_ind2 = group this; (group this) setGroupId [""Charlie""]; this setVariable [""initUnit"",[""blue"",""indfor"",""rifleman""],false];";
+					description="     Charlie 2'2 - Rifleman";
+				};
+				class Item2
+				{
+					position[]={1692.0857,5,1054.9614};
+					special="NONE";
+					id=87;
+					side="GUER";
+					vehicle="I_Soldier_LAT_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Charlie692693_ind";
+					init="charlie_grp_ind2 = group this; (group this) setGroupId [""Charlie""]; this setVariable [""initUnit"",[""red"",""indfor"",""AT""],false];";
+					description="     Charlie 2'3 - Light AT";
+				};
+				class Item3
+				{
+					position[]={1692.0149,5,1053.7383};
+					special="NONE";
+					id=88;
+					side="GUER";
+					vehicle="I_Soldier_M_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Charlie692694_ind";
+					init="charlie_grp_ind2 = group this; (group this) setGroupId [""Charlie""]; this setVariable [""initUnit"",[""blue"",""indfor"",""marksman""],false];";
+					description="     Charlie 2'4 - Designated Marksman";
+				};
+			};
+		};
+		class Item34
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1697.7561,5,1057.5708};
+					offsetY=0.1;
+					special="NONE";
+					id=89;
+					side="GUER";
+					vehicle="I_Soldier_SL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=1;
+					text="Delta69Actual_ind";
+					init="delta_grp_ind = group this; (group this) setGroupId [""Delta""]; this setVariable [""initUnit"",[""white"",""indfor"",""SL""],false];";
+					description="** Delta Actual";
+				};
+				class Item1
+				{
+					position[]={1697.9192,5,1052.2476};
+					special="NONE";
+					id=90;
+					side="GUER";
+					vehicle="I_medic_F";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Delta69Corpsman_ind";
+					init="delta_grp_ind = group this; (group this) setGroupId [""Delta""]; this setVariable [""initUnit"",[""green"",""indfor"",""medic""],false];";
+					description="Delta - Squad Medic";
+				};
+			};
+		};
+		class Item35
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1696.2859,5,1056.7666};
+					special="NONE";
+					id=91;
+					side="GUER";
+					vehicle="I_Soldier_TL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=1;
+					text="FTL691_Delta_1_1_ind";
+					init="delta_grp_ind1 = group this; (group this) setGroupId [""Delta""]; this setVariable [""initUnit"",[""red"",""indfor"",""FTL""],false];";
+					description="=== Delta 1'1 - Team Leader";
+				};
+				class Item1
+				{
+					position[]={1696.2976,5,1055.7222};
+					special="NONE";
+					id=92;
+					side="GUER";
+					vehicle="I_soldier_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Delta691692_ind";
+					init="delta_grp_ind1 = group this; (group this) setGroupId [""Delta""];  this setVariable [""initUnit"",[""red"",""indfor"",""rifleman""],false];";
+					description="     Delta 1'2 - Rifleman";
+				};
+				class Item2
+				{
+					position[]={1696.2756,5,1054.5503};
+					special="NONE";
+					id=93;
+					side="GUER";
+					vehicle="I_Soldier_AR_F";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Delta691693_ind";
+					init="delta_grp_ind1 = group this; (group this) setGroupId [""Delta""]; this setVariable [""initUnit"",[""red"",""indfor"",""MG""],false];";
+					description="     Delta 1'3 - Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={1696.2649,5,1053.4966};
+					special="NONE";
+					id=94;
+					side="GUER";
+					vehicle="I_Soldier_M_F";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Delta691694_ind";
+					init="delta_grp_ind1 = group this; (group this) setGroupId [""Delta""]; this setVariable [""initUnit"",[""red"",""indfor"",""rifleman""],false];";
+					description="     Delta 1'4 - Designated Marksman";
+				};
+			};
+		};
+		class Item36
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1699.5769,5,1056.7393};
+					special="NONE";
+					id=95;
+					side="GUER";
+					vehicle="I_Soldier_TL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=1;
+					text="FTL692_Delta_2_1_ind";
+					init="delta_grp_ind2 = group this; (group this) setGroupId [""Delta""]; this setVariable [""initUnit"",[""blue"",""indfor"",""FTL""],false];";
+					description="=== Delta 2'1 - Team Leader";
+				};
+				class Item1
+				{
+					position[]={1699.614,5,1055.6533};
+					special="NONE";
+					id=96;
+					side="GUER";
+					vehicle="I_soldier_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Delta692692_ind";
+					init="delta_grp_ind2 = group this; (group this) setGroupId [""Delta""]; this setVariable [""initUnit"",[""blue"",""indfor"",""rifleman""],false];";
+					description="     Delta 2'2 - Rifleman";
+				};
+				class Item2
+				{
+					position[]={1699.6506,5,1054.394};
+					special="NONE";
+					id=97;
+					side="GUER";
+					vehicle="I_Soldier_LAT_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Delta692693_ind";
+					init="delta_grp_ind2 = group this; (group this) setGroupId [""Delta""]; this setVariable [""initUnit"",[""red"",""indfor"",""AT""],false];";
+					description="     Delta 2'3 - Light AT";
+				};
+				class Item3
+				{
+					position[]={1699.5159,5,1053.272};
+					special="NONE";
+					id=98;
+					side="GUER";
+					vehicle="I_Soldier_M_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Delta692694_ind";
+					init="delta_grp_ind2 = group this; (group this) setGroupId [""Delta""]; this setVariable [""initUnit"",[""blue"",""indfor"",""marksman""],false];";
+					description="     Delta 2'4 - Designated Marksman";
+				};
+			};
+		};
+		class Item37
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1193.1718,5,204.53662};
+					special="NONE";
+					id=99;
+					side="EAST";
+					vehicle="O_Soldier_SL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=1;
+					text="Alpha69Actual_op";
+					init="alpha_grp_op = group this; (group this) setGroupId [""Alpha""]; this setVariable [""initUnit"",[""white"",""redfor"",""SL""],false];";
+					description="** Alpha Actual";
+				};
+				class Item1
+				{
+					position[]={1193.244,5,199.8501};
+					special="NONE";
+					id=100;
+					side="EAST";
+					vehicle="O_medic_F";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Alpha69Corpsman_op";
+					init="alpha_grp_op = group this; (group this) setGroupId [""Alpha""]; this setVariable [""initUnit"",[""green"",""redfor"",""medic""],false];";
+					description="Alpha - Squad Medic";
+				};
+			};
+		};
+		class Item38
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1191.3715,5,203.9248};
+					special="NONE";
+					id=101;
+					side="EAST";
+					vehicle="O_Soldier_TL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=1;
+					text="FTL691_Alpha_1_1_op";
+					init="alpha_grp_op1 = group this; (group this) setGroupId [""Alpha""]; this setVariable [""initUnit"",[""red"",""redfor"",""FTL""],false];";
+					description="=== Alpha 1'1 - Team Leader";
+				};
+				class Item1
+				{
+					position[]={1191.3802,5,202.86084};
+					special="NONE";
+					id=102;
+					side="EAST";
+					vehicle="O_Soldier_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Alpha691692_op";
+					init="alpha_grp_op1 = group this; (group this) setGroupId [""Alpha""]; this setVariable [""initUnit"",[""red"",""redfor"",""rifleman""],false];";
+					description="     Alpha 1'2 - Rifleman";
+				};
+				class Item2
+				{
+					position[]={1191.3964,5,201.7124};
+					special="NONE";
+					id=103;
+					side="EAST";
+					vehicle="O_Soldier_AR_F";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Alpha691693_op";
+					init="alpha_grp_op1 = group this; (group this) setGroupId [""Alpha""]; this setVariable [""initUnit"",[""red"",""redfor"",""MG""],false];";
+					description="     Alpha 1'3 - Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={1191.4076,5,200.62793};
+					special="NONE";
+					id=104;
+					side="EAST";
+					vehicle="O_soldier_M_F";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Alpha691694_op";
+					init="alpha_grp_op1 = group this; (group this) setGroupId [""Alpha""]; this setVariable [""initUnit"",[""red"",""redfor"",""marksman""],false];";
+					description="     Alpha 1'4 - Designated Marksman";
+				};
+			};
+		};
+		class Item39
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1194.6893,5,204.13574};
+					special="NONE";
+					id=105;
+					side="EAST";
+					vehicle="O_Soldier_TL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=1;
+					text="FTL692_Alpha_2_1_op";
+					init="alpha_grp_op2 = group this; (group this) setGroupId [""Alpha""]; this setVariable [""initUnit"",[""blue"",""redfor"",""FTL""],false];";
+					description="=== Alpha 2'1 - Team Leader";
+				};
+				class Item1
+				{
+					position[]={1194.7133,5,203.10596};
+					special="NONE";
+					id=106;
+					side="EAST";
+					vehicle="O_Soldier_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Alpha692692_op";
+					init="alpha_grp_op2 = group this; (group this) setGroupId [""Alpha""]; this setVariable [""initUnit"",[""blue"",""redfor"",""rifleman""],false];";
+					description="     Alpha 2'2 - Rifleman";
+				};
+				class Item2
+				{
+					position[]={1194.7484,5,201.95801};
+					special="NONE";
+					id=107;
+					side="EAST";
+					vehicle="O_Soldier_LAT_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Alpha692693_op";
+					init="alpha_grp_op2 = group this; (group this) setGroupId [""Alpha""]; this setVariable [""initUnit"",[""blue"",""redfor"",""AT""],false];";
+					description="     Alpha 2'3 - Light AT";
+				};
+				class Item3
+				{
+					position[]={1194.7362,5,200.82568};
+					special="NONE";
+					id=108;
+					side="EAST";
+					vehicle="O_soldier_M_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Alpha692694_op";
+					init="alpha_grp_op2 = group this; (group this) setGroupId [""Alpha""]; this setVariable [""initUnit"",[""blue"",""redfor"",""marksman""],false];";
+					description="     Alpha 2'4 - Designated Marksman";
+				};
+			};
+		};
+		class Item40
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1199.9769,5,204.64893};
+					offsetY=0.1;
+					special="NONE";
+					id=109;
+					side="EAST";
+					vehicle="O_Soldier_SL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=1;
+					text="Bravo69Actual_op";
+					init="bravo_grp_op = group this; (group this) setGroupId [""Bravo""]; this setVariable [""initUnit"",[""white"",""redfor"",""SL""],false];";
+					description="** Bravo Actual";
+				};
+				class Item1
+				{
+					position[]={1200.0258,5,199.89941};
+					special="NONE";
+					id=110;
+					side="EAST";
+					vehicle="O_medic_F";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Bravo69Corpsman_op";
+					init="bravo_grp_op = group this; (group this) setGroupId [""Bravo""]; this setVariable [""initUnit"",[""green"",""redfor"",""medic""],false];";
+					description="Bravo - Squad Medic";
+				};
+			};
+		};
+		class Item41
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1198.2748,5,204.01758};
+					special="NONE";
+					id=111;
+					side="EAST";
+					vehicle="O_Soldier_TL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=1;
+					text="FTL691_Bravo_1_1_op";
+					init="bravo_grp_op1 = group this; (group this) setGroupId [""Bravo""]; this setVariable [""initUnit"",[""red"",""redfor"",""FTL""],false];";
+					description="=== Bravo 1'1 - Team Leader";
+				};
+				class Item1
+				{
+					position[]={1198.3217,5,202.99414};
+					special="NONE";
+					id=112;
+					side="EAST";
+					vehicle="O_Soldier_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Bravo691692_op";
+					init="bravo_grp_op1 = group this; (group this) setGroupId [""Bravo""]; this setVariable [""initUnit"",[""red"",""redfor"",""rifleman""],false];";
+					description="     Bravo 1'2 - Rifleman";
+				};
+				class Item2
+				{
+					position[]={1198.3519,5,201.76318};
+					special="NONE";
+					id=113;
+					side="EAST";
+					vehicle="O_Soldier_AR_F";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Bravo691693_op";
+					init="bravo_grp_op1 = group this; (group this) setGroupId [""Bravo""]; this setVariable [""initUnit"",[""red"",""redfor"",""MG""],false];";
+					description="     Bravo 1'3 - Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={1198.4862,5,200.57764};
+					special="NONE";
+					id=114;
+					side="EAST";
+					vehicle="O_soldier_M_F";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Bravo691694_op";
+					init="bravo_grp_op1 = group this; (group this) setGroupId [""Bravo""]; this setVariable [""initUnit"",[""red"",""redfor"",""marksman""],false];";
+					description="     Bravo 1'4 - Designated Marksman";
+				};
+			};
+		};
+		class Item42
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1201.4779,5,204.18115};
+					special="NONE";
+					id=115;
+					side="EAST";
+					vehicle="O_Soldier_TL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=1;
+					text="FTL692_Bravo_2_1_op";
+					init="bravo_grp_op2 = group this; (group this) setGroupId [""Bravo""]; this setVariable [""initUnit"",[""blue"",""redfor"",""FTL""],false];";
+					description="=== Bravo 2'1 - Team Leader";
+				};
+				class Item1
+				{
+					position[]={1201.4921,5,203.1167};
+					special="NONE";
+					id=116;
+					side="EAST";
+					vehicle="O_Soldier_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Bravo692692_op";
+					init="bravo_grp_op2 = group this; (group this) setGroupId [""Bravo""]; this setVariable [""initUnit"",[""blue"",""redfor"",""rifleman""],false];";
+					description="     Bravo 2'2 - Rifleman";
+				};
+				class Item2
+				{
+					position[]={1201.5189,5,201.90674};
+					special="NONE";
+					id=117;
+					side="EAST";
+					vehicle="O_Soldier_LAT_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Bravo692693_op";
+					init="bravo_grp_op2 = group this; (group this) setGroupId [""Bravo""]; this setVariable [""initUnit"",[""blue"",""redfor"",""AT""],false];";
+					description="     Bravo 2'3 - Light AT";
+				};
+				class Item3
+				{
+					position[]={1201.5551,5,200.87207};
+					special="NONE";
+					id=118;
+					side="EAST";
+					vehicle="O_soldier_M_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Bravo692694_op";
+					init="bravo_grp_op2 = group this; (group this) setGroupId [""Bravo""]; this setVariable [""initUnit"",[""blue"",""redfor"",""marksman""],false];";
+					description="     Bravo 2'4 - Designated Marksman";
+				};
+			};
+		};
+		class Item43
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1193.0956,5,196.37305};
+					offsetY=0.1;
+					special="NONE";
+					id=119;
+					side="EAST";
+					vehicle="O_Soldier_SL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=1;
+					text="Charlie69Actual_op";
+					init="charlie_grp_op = group this; (group this) setGroupId [""Charlie""]; this setVariable [""initUnit"",[""white"",""redfor"",""SL""],false];";
+					description="** Charlie Actual";
+				};
+				class Item1
+				{
+					position[]={1193.1854,5,191.67969};
+					special="NONE";
+					id=120;
+					side="EAST";
+					vehicle="O_medic_F";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Charlie69Corpsman_op";
+					init="charlie_grp_op = group this; (group this) setGroupId [""Charlie""]; this setVariable [""initUnit"",[""green"",""redfor"",""medic""],false];";
+					description="Charlie - Squad Medic";
+				};
+			};
+		};
+		class Item44
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1191.4935,5,195.82666};
+					special="NONE";
+					id=121;
+					side="EAST";
+					vehicle="O_Soldier_TL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=1;
+					text="FTL691_Charlie_1_1_op";
+					init="charlie_grp_op1 = group this; (group this) setGroupId [""Charlie""]; this setVariable [""initUnit"",[""red"",""redfor"",""FTL""],false];";
+					description="=== Charlie 1'1 - Team Leader";
+				};
+				class Item1
+				{
+					position[]={1191.4945,5,194.81104};
+					special="NONE";
+					id=122;
+					side="EAST";
+					vehicle="O_Soldier_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Charlie691692_op";
+					init="charlie_grp_op1 = group this; (group this) setGroupId [""Charlie""]; this setVariable [""initUnit"",[""red"",""redfor"",""rifleman""],false];";
+					description="     Charlie 1'2 - Rifleman";
+				};
+				class Item2
+				{
+					position[]={1191.495,5,193.73877};
+					special="NONE";
+					id=123;
+					side="EAST";
+					vehicle="O_Soldier_AR_F";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Charlie691693_op";
+					init="charlie_grp_op1 = group this; (group this) setGroupId [""Charlie""]; this setVariable [""initUnit"",[""red"",""redfor"",""MG""],false];";
+					description="     Charlie 1'3 - Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={1191.5409,5,192.59082};
+					special="NONE";
+					id=124;
+					side="EAST";
+					vehicle="O_soldier_M_F";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Charlie691694_op";
+					init="charlie_grp_op1 = group this; (group this) setGroupId [""Charlie""]; this setVariable [""initUnit"",[""red"",""redfor"",""marksman""],false];";
+					description="     Charlie 1'4 - Designated Marksman";
+				};
+			};
+		};
+		class Item45
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1194.8417,5,195.88135};
+					special="NONE";
+					id=125;
+					side="EAST";
+					vehicle="O_Soldier_TL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=1;
+					text="FTL692_Charlie_2_1_op";
+					init="charlie_grp_op2 = group this; (group this) setGroupId [""Charlie""]; this setVariable [""initUnit"",[""blue"",""redfor"",""FTL""],false];";
+					description="=== Charlie 2'1 - Team Leader";
+				};
+				class Item1
+				{
+					position[]={1194.8353,5,194.89209};
+					special="NONE";
+					id=126;
+					side="EAST";
+					vehicle="O_Soldier_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Charlie692692_op";
+					init="charlie_grp_op2 = group this; (group this) setGroupId [""Charlie""]; this setVariable [""initUnit"",[""blue"",""redfor"",""rifleman""],false];";
+					description="     Charlie 2'2 - Rifleman";
+				};
+				class Item2
+				{
+					position[]={1194.8153,5,193.80713};
+					special="NONE";
+					id=127;
+					side="EAST";
+					vehicle="O_Soldier_LAT_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Charlie692693_op";
+					init="charlie_grp_op2 = group this; (group this) setGroupId [""Charlie""]; this setVariable [""initUnit"",[""blue"",""redfor"",""AT""],false];";
+					description="     Charlie 2'3 - Light AT";
+				};
+				class Item3
+				{
+					position[]={1194.7894,5,192.5835};
+					special="NONE";
+					id=128;
+					side="EAST";
+					vehicle="O_soldier_M_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Charlie692694_op";
+					init="charlie_grp_op2 = group this; (group this) setGroupId [""Charlie""]; this setVariable [""initUnit"",[""blue"",""redfor"",""marksman""],false];";
+					description="     Charlie 2'4 - Designated Marksman";
+				};
+			};
+		};
+		class Item46
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1200.1488,5,197.0166};
+					offsetY=0.1;
+					special="NONE";
+					id=129;
+					side="EAST";
+					vehicle="O_Soldier_SL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=1;
+					text="Delta69Actual_op";
+					init="delta_grp_op = group this; (group this) setGroupId [""Delta""]; this setVariable [""initUnit"",[""white"",""redfor"",""SL""],false];";
+					description="** Delta Actual";
+				};
+				class Item1
+				{
+					position[]={1200.4008,5,191.61084};
+					special="NONE";
+					id=130;
+					side="EAST";
+					vehicle="O_medic_F";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Delta69Corpsman_op";
+					init="delta_grp_op = group this; (group this) setGroupId [""Delta""]; this setVariable [""initUnit"",[""green"",""redfor"",""medic""],false];";
+					description="Delta - Squad Medic";
+				};
+			};
+		};
+		class Item47
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1198.3934,5,195.98535};
+					special="NONE";
+					id=131;
+					side="EAST";
+					vehicle="O_Soldier_TL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=1;
+					text="FTL691_Delta_1_1_op";
+					init="delta_grp_op1 = group this; (group this) setGroupId [""Delta""]; this setVariable [""initUnit"",[""red"",""redfor"",""FTL""],false];";
+					description="=== Delta 1'1 - Team Leader";
+				};
+				class Item1
+				{
+					position[]={1198.4432,5,194.94189};
+					special="NONE";
+					id=132;
+					side="EAST";
+					vehicle="O_Soldier_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Delta691692_op";
+					init="delta_grp_op1 = group this; (group this) setGroupId [""Delta""]; this setVariable [""initUnit"",[""red"",""redfor"",""rifleman""],false];";
+					description="     Delta 1'2 - Rifleman";
+				};
+				class Item2
+				{
+					position[]={1198.4662,5,193.77051};
+					special="NONE";
+					id=133;
+					side="EAST";
+					vehicle="O_Soldier_AR_F";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Delta691693_op";
+					init="delta_grp_op1 = group this; (group this) setGroupId [""Delta""]; this setVariable [""initUnit"",[""red"",""redfor"",""MG""],false];";
+					description="     Delta 1'3 - Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={1198.493,5,192.71924};
+					special="NONE";
+					id=134;
+					side="EAST";
+					vehicle="O_soldier_M_F";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Delta691694_op";
+					init="delta_grp_op1 = group this; (group this) setGroupId [""Delta""]; this setVariable [""initUnit"",[""red"",""redfor"",""marksman""],false];";
+					description="     Delta 1'4 - Designated Marksman";
+				};
+			};
+		};
+		class Item48
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1201.786,5,196.01563};
+					special="NONE";
+					id=135;
+					side="EAST";
+					vehicle="O_Soldier_TL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=1;
+					text="FTL692_Delta_2_1_op";
+					init="delta_grp_op2 = group this; (group this) setGroupId [""Delta""]; this setVariable [""initUnit"",[""blue"",""redfor"",""FTL""],false];";
+					description="=== Delta 2'1 - Team Leader";
+				};
+				class Item1
+				{
+					position[]={1201.8627,5,194.93311};
+					special="NONE";
+					id=136;
+					side="EAST";
+					vehicle="O_Soldier_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Delta692692_op";
+					init="delta_grp_op2 = group this; (group this) setGroupId [""Delta""]; this setVariable [""initUnit"",[""blue"",""redfor"",""rifleman""],false];";
+					description="     Delta 2'2 - Rifleman";
+				};
+				class Item2
+				{
+					position[]={1201.9462,5,193.67529};
+					special="NONE";
+					id=137;
+					side="EAST";
+					vehicle="O_Soldier_LAT_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Delta692693_op";
+					init="delta_grp_op2 = group this; (group this) setGroupId [""Delta""]; this setVariable [""initUnit"",[""blue"",""redfor"",""AT""],false];";
+					description="     Delta 2'3 - Light AT";
+				};
+				class Item3
+				{
+					position[]={1201.8514,5,192.55029};
+					special="NONE";
+					id=138;
+					side="EAST";
+					vehicle="O_soldier_M_F";
+					player="PLAY CDG";
+					skill=1;
+					text="Delta692694_op";
+					init="delta_grp_op2 = group this; (group this) setGroupId [""Delta""]; this setVariable [""initUnit"",[""blue"",""redfor"",""marksman""],false];";
+					description="     Delta 2'4 - Designated Marksman";
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=24;
+		class Item0
+		{
+			position[]={688.63531,5,1028.7588};
+			azimut=-0.56975567;
+			id=139;
+			side="EMPTY";
+			vehicle="B_MRAP_01_F";
+			leader=1;
+			skill=1;
+			init="cargo = [this,""blufor"",""ammo""] execVM ""mission\loadout\init-cargo.sqf"";";
+		};
+		class Item1
+		{
+			position[]={698.81622,5,1027.5049};
+			azimut=-0.67875588;
+			id=140;
+			side="EMPTY";
+			vehicle="B_Truck_01_covered_F";
+			leader=1;
+			skill=1;
+			init="cargo = [this,""blufor"",""ammo""] execVM ""mission\loadout\init-cargo.sqf"";";
+		};
+		class Item2
+		{
+			position[]={693.79376,5,1028.4893};
+			azimut=-0.56975597;
+			id=141;
+			side="EMPTY";
+			vehicle="B_MRAP_01_hmg_F";
+			leader=1;
+			skill=1;
+			init="cargo = [this,""blufor"",""ammo""] execVM ""mission\loadout\init-cargo.sqf"";";
+		};
+		class Item3
+		{
+			position[]={715.9184,5,1027.4126};
+			azimut=-0.678756;
+			id=142;
+			side="EMPTY";
+			vehicle="B_APC_Tracked_01_AA_F";
+			leader=1;
+			skill=1;
+		};
+		class Item4
+		{
+			position[]={702.20392,5,1039.6226};
+			azimut=-0.67875588;
+			id=143;
+			side="EMPTY";
+			vehicle="B_Heli_Light_01_F";
+			leader=1;
+			skill=1;
+		};
+		class Item5
+		{
+			position[]={710.16217,5,1039.5444};
+			azimut=-0.67875588;
+			id=144;
+			side="EMPTY";
+			vehicle="B_Heli_Light_01_armed_F";
+			leader=1;
+			skill=1;
+		};
+		class Item6
+		{
+			position[]={714.78888,5,1053.4521};
+			azimut=-89.292633;
+			id=145;
+			side="EMPTY";
+			vehicle="B_Heli_Transport_01_F";
+			leader=1;
+			skill=1;
+			init="cargo = [this,""blufor"",""ammo""] execVM ""mission\loadout\init-cargo.sqf"";";
+		};
+		class Item7
+		{
+			position[]={703.40558,5,1027.7036};
+			azimut=-0.67875588;
+			id=146;
+			side="EMPTY";
+			vehicle="B_Truck_01_ammo_F";
+			leader=1;
+			skill=1;
+			init="cargo = [this,""blufor"",""ammo_big""] execVM ""mission\loadout\init-cargo.sqf"";";
+		};
+		class Item8
+		{
+			position[]={1706.5317,5,1068.3193};
+			azimut=2.18665;
+			id=147;
+			side="EMPTY";
+			vehicle="I_MRAP_03_F";
+			leader=1;
+			skill=1;
+			init="cargo = [this,""indfor"",""ammo""] execVM ""mission\loadout\init-cargo.sqf"";";
+		};
+		class Item9
+		{
+			position[]={1711.1724,5,1068.3848};
+			azimut=2.1866479;
+			id=148;
+			side="EMPTY";
+			vehicle="I_MRAP_03_hmg_F";
+			leader=1;
+			skill=1;
+			init="cargo = [this,""indfor"",""ammo""] execVM ""mission\loadout\init-cargo.sqf"";";
+		};
+		class Item10
+		{
+			position[]={1706.3535,5,1059.2026};
+			azimut=2.1866479;
+			id=149;
+			side="EMPTY";
+			vehicle="I_Truck_02_covered_F";
+			leader=1;
+			skill=1;
+			init="cargo = [this,""indfor"",""ammo""] execVM ""mission\loadout\init-cargo.sqf"";";
+		};
+		class Item11
+		{
+			position[]={1712.5813,5,1057.7446};
+			azimut=2.1866479;
+			id=150;
+			side="EMPTY";
+			vehicle="I_Truck_02_ammo_F";
+			leader=1;
+			skill=1;
+			init="cargo = [this,""indfor"",""ammo_big""] execVM ""mission\loadout\init-cargo.sqf"";";
+		};
+		class Item12
+		{
+			position[]={1719.8201,5,1068.0542};
+			azimut=2.1866479;
+			id=151;
+			side="EMPTY";
+			vehicle="I_MBT_03_cannon_F";
+			leader=1;
+			skill=1;
+		};
+		class Item13
+		{
+			position[]={1732.7683,5,1064.0361};
+			azimut=0.19578385;
+			id=152;
+			side="EMPTY";
+			vehicle="I_Heli_Transport_02_F";
+			leader=1;
+			skill=1;
+		};
+		class Item14
+		{
+			position[]={1722.9783,5,1054.2539};
+			azimut=2.1866479;
+			id=153;
+			side="EMPTY";
+			vehicle="I_Heli_light_03_F";
+			leader=1;
+			skill=1;
+			init="cargo = [this,""indfor"",""ammo""] execVM ""mission\loadout\init-cargo.sqf"";";
+		};
+		class Item15
+		{
+			position[]={1182.7233,5,182.73096};
+			azimut=1.5612668;
+			id=154;
+			side="EMPTY";
+			vehicle="O_MRAP_02_F";
+			leader=1;
+			skill=1;
+			init="cargo = [this,""redfor"",""ammo""] execVM ""mission\loadout\init-cargo.sqf"";";
+		};
+		class Item16
+		{
+			position[]={1189.1532,5,183.03857};
+			azimut=1.5612668;
+			id=155;
+			side="EMPTY";
+			vehicle="O_MRAP_02_hmg_F";
+			leader=1;
+			skill=1;
+			init="cargo = [this,""redfor"",""ammo""] execVM ""mission\loadout\init-cargo.sqf"";";
+		};
+		class Item17
+		{
+			position[]={1195.1522,5,182.60596};
+			azimut=1.5612668;
+			id=156;
+			side="EMPTY";
+			vehicle="O_Truck_02_covered_F";
+			leader=1;
+			skill=1;
+			init="cargo = [this,""redfor"",""ammo""] execVM ""mission\loadout\init-cargo.sqf"";";
+		};
+		class Item18
+		{
+			position[]={1201.2059,5,181.26172};
+			azimut=1.5612668;
+			id=157;
+			side="EMPTY";
+			vehicle="O_Truck_02_Ammo_F";
+			leader=1;
+			skill=1;
+			init="cargo = [this,""redfor"",""ammo_big""] execVM ""mission\loadout\init-cargo.sqf"";";
+		};
+		class Item19
+		{
+			position[]={1200.8383,5,167.64209};
+			azimut=-1.4875544;
+			id=158;
+			side="EMPTY";
+			vehicle="O_MBT_02_cannon_F";
+			leader=1;
+			skill=1;
+		};
+		class Item20
+		{
+			position[]={1174.8988,5,167.36426};
+			azimut=1.5612668;
+			id=159;
+			side="EMPTY";
+			vehicle="O_Heli_Attack_02_black_F";
+			leader=1;
+			skill=1;
+		};
+		class Item21
+		{
+			position[]={1189.2074,5,163.91406};
+			azimut=1.5612668;
+			id=160;
+			side="EMPTY";
+			vehicle="O_Heli_Light_02_unarmed_F";
+			leader=1;
+			skill=1;
+			init="cargo = [this,""redfor"",""ammo""] execVM ""mission\loadout\init-cargo.sqf"";";
+		};
+		class Item22
+		{
+			position[]={706.9798,5,1023.269};
+			azimut=-91.738434;
+			id=161;
+			side="EMPTY";
+			vehicle="B_supplyCrate_F";
+			leader=1;
+			skill=1;
+			init="cargo = [this,""blufor"",""ammobox""] execVM ""mission\loadout\init-cargo.sqf"";";
+		};
+		class Item23
+		{
+			position[]={709.71075,5,1023.5806};
+			azimut=-181.33459;
+			id=162;
+			side="EMPTY";
+			vehicle="AGM_Box_Medical";
+			leader=1;
+			skill=1;
+			init="cargo = [this,""blufor"",""medical""] execVM ""mission\loadout\init-cargo.sqf"";";
+		};
+	};
+	class Markers
+	{
+		items=5;
+		class Item0
+		{
+			position[]={2547.5884,5,148.79346};
+			name="boot_hill";
+			type="Empty";
+		};
+		class Item1
+		{
+			position[]={930.15875,5,1082.1348};
+			name="mk_cap";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorRed";
+			fillName="BDiagonal";
+			a=125;
+			b=115;
+			angle=-269.98901;
+		};
+		class Item2
+		{
+			position[]={696.95563,5,1056.0576};
+			name="respawn_west";
+			type="Empty";
+			colorName="ColorWEST";
+		};
+		class Item3
+		{
+			position[]={1694.2795,5,1059.5737};
+			name="respawn_resistance";
+			type="Empty";
+			colorName="ColorGUER";
+		};
+		class Item4
+		{
+			position[]={1196.806,5,198.35938};
+			name="respawn_east";
+			type="Empty";
+			colorName="ColorEAST";
+		};
+	};
+	class Sensors
+	{
+		items=2;
+		class Item0
+		{
+			position[]={931.00104,5,1082.6519};
+			a=125;
+			b=115;
+			angle=-89.939499;
+			rectangular=1;
+			activationBy="WEST SEIZED";
+			interruptable=1;
+			age="UNKNOWN";
+			name="objTrigger";
+			expActiv="[""taskMain"",""succeeded""] call SHK_Taskmaster_upd;";
+			class Effects
+			{
+			};
+		};
+		class Item1
+		{
+			position[]={700.95856,5,1075.4131};
+			a=3;
+			b=3;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Use this to give AI units a specific loadout.";
+			expCond="time > 1";
+			expActiv="_units = [thistrigger, ""blufor""] spawn fnc_assignLoadout";
+			class Effects
+			{
+			};
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"map_vr",
+		"aia_takistan_config"
+	};
+	addOnsAuto[]=
+	{
+		"aia_takistan_config"
+	};
+	randomSeed=11993889;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=12;
+		minute=0;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"map_vr",
+		"aia_takistan_config"
+	};
+	addOnsAuto[]=
+	{
+		"aia_takistan_config"
+	};
+	randomSeed=5462833;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=12;
+		minute=0;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"map_vr",
+		"aia_takistan_config"
+	};
+	addOnsAuto[]=
+	{
+		"aia_takistan_config"
+	};
+	randomSeed=15919413;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=12;
+		minute=0;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+};
