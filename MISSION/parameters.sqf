@@ -133,10 +133,10 @@
 
     class ai_level
     {
-            title = "DAC AI Skill";
-            values[] = {0,1,2,3,4};
-            texts[] = {"===","Very Low","Low","Medium","High"};
-            default = 4;
+            title = "Headless Client";
+            values[] = {0,1};
+            texts[] = {"Disabled","Enabled"};
+            default = 0;
             code = "ai_level = %1";
     };
 

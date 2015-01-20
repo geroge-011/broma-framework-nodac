@@ -1,5 +1,4 @@
 if (!use_co_lock) exitWith {};
-
 lockFree = false;
 
 player spawn {

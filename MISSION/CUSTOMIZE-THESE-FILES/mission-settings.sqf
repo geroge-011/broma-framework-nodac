@@ -51,10 +51,10 @@ coverMap = true;
 //     Unit declared as the Commander has the option to start the mission,
 //       until then players can't shoot their weapons or enter vehicles.
 // ============================================================================
-
+if (isNull Zero69Actual) then {use_co_lock = false;} else {
 use_co_lock = false;
 co_lock_unit = Zero69Actual;
-
+};
 // ============================================================================
 //                          ==   LOADOUT MODE   ==                             |
 

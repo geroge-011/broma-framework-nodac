@@ -323,26 +323,14 @@ switch (_aiSkill) do
 {    
 	case 0:
 	{
-            DAC_AI_Level = 1;
+            headless_ai = 1;
 	};        
 	case 1:
 	{
-            DAC_AI_Level = 1;
-	};
-	case 2:
-	{
-            DAC_AI_Level = 2;
-	};
-	case 3:
-	{
-            DAC_AI_Level = 3;
-	};
-	case 4:
-	{
-            DAC_AI_Level = 4;
-	};        
+            headless_ai = 1;
+	};     
 };
-publicVariable "DAC_AI_Level";
+publicVariable "headless_ai";
 
 // ====================================================================================
 // Casualty Cap

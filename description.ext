@@ -35,6 +35,7 @@ class RscTitles {
 };
 class CfgFunctions
 {
+    #include "optional\view_distance\CfgFunctions.hpp"
     #include "engine\spect\functions.hpp"
 };
 class CfgDebriefing

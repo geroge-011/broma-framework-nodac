@@ -1,34 +1,3 @@
-/*
-
-
-
-
-
-
-
-
-
-
-
-                       Welcome to the BromA Framework A3.
-
-                    In order to get started, open the folder
-                      "mission\customize_these_files",
-          start editing the files inside, and you're pretty much set!
-
-         That means you're completely free to ignore the rest of this.
-
-
-
-
-
-
-
-
-
-
-
-*/
 diag_log "";
 diag_log "**********************************************************************";
 diag_log "=======================  MISSION STARTED =============================";
